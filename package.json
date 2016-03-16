@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fex-team/fis3-hook-commonjs.git"
+    "url": "https://github.com/feix760/fis3-hook-no-wrap.git"
   },
   "keywords": [
     "fis3",
@@ -17,9 +17,9 @@
   },
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/fex-team/fis3-hook-commonjs/issues"
+    "url": "https://github.com/feix760/fis3-hook-no-wrap/issues"
   },
-  "homepage": "https://github.com/fex-team/fis3-hook-commonjs",
+  "homepage": "https://github.com/feix760/fis3-hook-no-wrap",
   "dependencies": {
   }
 }
