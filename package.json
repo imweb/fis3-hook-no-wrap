@@ -1,0 +1,25 @@
+{
+  "name": "fis3-hook-no-wrap",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fex-team/fis3-hook-commonjs.git"
+  },
+  "keywords": [
+    "fis3",
+    "commonJs",
+    "noWrap"
+  ],
+  "author": {
+    "name": "fishineyuan"
+  },
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/fex-team/fis3-hook-commonjs/issues"
+  },
+  "homepage": "https://github.com/fex-team/fis3-hook-commonjs",
+  "dependencies": {
+  }
+}
