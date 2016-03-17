@@ -1,10 +1,10 @@
 module.exports = function(fis, opts) {
-    fis.on('process:start', function(file) {
+    fis.on('compile:start', function(file) {
         if (!file.isJsLike || file.isPartial) {
             return;
         }
         var content = file.getContent() || '';
-        if (content.match(/^\s*\/\*[\s\S]*@noWrap[\s\S]*\*\//)) {
+        if (content.match(/\/\*([\s\S]+?)\*\//) && RegExp.$1.match(/@noWrap/)) {
             file.wrap = false;
         }
     });
