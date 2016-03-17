@@ -1,4 +1,4 @@
-# fis3-hook-commonjs
+# fis3-hook-no-wrap
 
 使用@noWrap注释标识文件不需要被`fis3-hook-commonjs`包裹
 
